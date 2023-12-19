@@ -14,3 +14,4 @@
 - [Chpater 11. Docker-vs-ContainerD](./docs/chapter-011.md)
 - [Chapter 12. Recap - Pods](./docs/chapter-012.md)
 - [Chapter 14. Recap - Pods with YAML](./docs/chapter-014.md)
+- [Chapter 23. Recap - ReplicaSets](./docs/chapter-023.md)
