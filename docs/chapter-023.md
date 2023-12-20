@@ -30,7 +30,7 @@ spec:
       name: myapp-pod
       labels:
         app: myapp
-        type: front-pod
+        type: front-end
     spec:
       containers:
         - name: nginx-container
