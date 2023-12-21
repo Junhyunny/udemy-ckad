@@ -17,3 +17,4 @@
 - [Chapter 23. Recap - ReplicaSets](./docs/chapter-023.md)
 - [Chapter 26. Recap - Deployment](./docs/chapter-026.md)
 - [Chapter 29. Certification Tip: Formatting Output with kubectl](./docs/chapter-029.md)
+- [Chapter 30. Recap - Namespace](./docs/chapter-030.md)
