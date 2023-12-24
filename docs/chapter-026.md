@@ -16,7 +16,7 @@
 
 ### Deployment Definition
 
-레플리카 세트라 거의 유사하며 종류(kind)만 `Deployment`로 정의한다.
+레플리카 세트 오브젝트를 정의한 방법과 거의 유사하며 종류(kind)만 `Deployment`로 정의한다.
 
 ```yml
 apiVersion: apps/v1

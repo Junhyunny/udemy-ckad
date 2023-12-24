@@ -19,3 +19,4 @@
 - [Chapter 29. Certification Tip: Formatting Output with kubectl](./docs/chapter-029.md)
 - [Chapter 30. Recap - Namespace](./docs/chapter-030.md)
 - [Chapter 33. Certification Tip: Imperative Commands](./docs/chapter-033.md)
+- [Chapter 38. Define, build and modify container images](./docs/chapter-038.md)
