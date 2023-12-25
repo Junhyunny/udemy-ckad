@@ -21,3 +21,4 @@
 - [Chapter 33. Certification Tip: Imperative Commands](./docs/chapter-033.md)
 - [Chapter 38. Define, build and modify container images](./docs/chapter-038.md)
 - [Chapter 40. Commands and Arguments in Docker](./docs/chapter-040.md)
+- [Chapter 41. Commands and Arguments in Kubernetes](./docs/chapter-041.md)

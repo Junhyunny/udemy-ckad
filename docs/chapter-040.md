@@ -48,7 +48,7 @@ $ docker run ubuntu sleep 10
     - 컨테이너가 실행될 때 인수가 추가되지 않으면 기본 값으로 지정된 5를 사용한다.
 
 ```dockerfile
-FROM Ubuntu
+FROM ubuntu
 
 ENTRYPOINT ["sleep"]
 
