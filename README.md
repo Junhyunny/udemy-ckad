@@ -22,3 +22,4 @@
 - [Chapter 38. Define, build and modify container images](./docs/chapter-038.md)
 - [Chapter 40. Commands and Arguments in Docker](./docs/chapter-040.md)
 - [Chapter 41. Commands and Arguments in Kubernetes](./docs/chapter-041.md)
+- [Chapter 45. Environment Variables](./docs/chapter-045.md)

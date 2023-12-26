@@ -19,7 +19,9 @@ $ docker build -t ubuntu-sleeper .
 
 도커 명령어처럼 쿠버네티스도 명령어와 인수를 전달할 수 있다. 다음과 같은 yml 파일을 정의한다. 
 
-- 위에서 생성한 우분투 이미지를 사용한다.
+- 이전 단계에서 생성한 우분투 이미지를 사용한다.
+- `command`는 도커 파일의 ENTRYPOINT를 대체한다. 
+- `args`는 CMD를 대체한다.
 
 ```yml
 apiVersion: v1
@@ -33,5 +35,3 @@ spec:
       command: ["ls"] # replace entry point for docker container
       args: ["."] # replace argument for docker container
 ```
-
-쿠버네티스 yml 파일의 command 선언은 도커 파일의 ENTRYPOINT를 대체한다. args 선언은 CMD를 대체한다.
