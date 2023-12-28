@@ -25,3 +25,4 @@
 - [Chapter 45. Environment Variables](./docs/chapter-045.md)
 - [Chpater 46. ConfigMap](./docs/chapter-046.md)
 - [Chpater 49. Secretes](./docs/chapter-049.md)
+- [Chapter 53. Demo: Encrypting Secret Data at Rest](./docs/chapter-053.md)
