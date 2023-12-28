@@ -24,3 +24,4 @@
 - [Chapter 41. Commands and Arguments in Kubernetes](./docs/chapter-041.md)
 - [Chapter 45. Environment Variables](./docs/chapter-045.md)
 - [Chpater 46. ConfigMap](./docs/chapter-046.md)
+- [Chpater 49. Secretes](./docs/chapter-049.md)
