@@ -26,3 +26,4 @@
 - [Chpater 46. ConfigMap](./docs/chapter-046.md)
 - [Chpater 49. Secretes](./docs/chapter-049.md)
 - [Chapter 53. Demo: Encrypting Secret Data at Rest](./docs/chapter-053.md)
+- [Chapter 54. Docker Security](./docs/chapter-054.md)
