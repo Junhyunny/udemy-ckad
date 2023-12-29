@@ -1,5 +1,5 @@
 
-## Chpater 49. Secretes
+## Chapter 49. Secretes
 
 컨피그 맵(config map)은 암호화가 필요한 설정을 저장하기에 적합하지 않다. 애플리케이션을 개발할 떄 암호화가 필요한 설정은 다음과 같다.
 

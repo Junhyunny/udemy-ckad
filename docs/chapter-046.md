@@ -1,5 +1,5 @@
 
-## Chpater 46. ConfigMap
+## Chapter 46. ConfigMap
 
  쿠버네티스 파드가 환경 변수를 사용할 수 있도록 yml 파일에 정의하지만, 이를 컨피그 맵(ConfigMap) 오브젝트로 구성해 주입 받을 수 있다. 컨피그 맵 오브젝트를 사용하는 방법은 단순하다. 
 

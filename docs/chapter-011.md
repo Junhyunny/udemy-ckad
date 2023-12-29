@@ -1,5 +1,5 @@
 
-## Chpater 11. Docker-vs-ContainerD
+## Chapter 11. Docker-vs-ContainerD
 
 쿠버네티스는 초반에 시장을 지배하고 있는 컨테이너 환경인 도커(docker)만 지원했다. 이후 시장에서 쿠버네티스가 인기가 많아지면서 다른 컨테이너 런타임(runtime)을 지원하기 시작했다. 이때 다양한 컨테이너 런타임을 지원하기 위해 만들어진 것이 CRI(container runtime interface)이다. 
 
