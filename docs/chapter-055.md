@@ -33,7 +33,7 @@ metadata:
 spec:
   securityContext:
     runAsUser: 1000
-    capabilites:
+    capabilities:
       add: ["MAC_ADMIN"]
   containers:
     - name: ubuntu
@@ -55,6 +55,6 @@ spec:
       command: ["sleep", "3600"]
       securityContext:
         runAsUser: 1000
-        capabilites:
+        capabilities:
           add: ["MAC_ADMIN"]
 ```
