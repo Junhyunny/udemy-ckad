@@ -56,7 +56,7 @@ $ docker run --cap-add MAC_ADMIN ubuntu
 --cap-drop 옵션으로 특정 권한을 제거할 수도 있다.
 
 ```
-$ docker run --cap-add KILL ubuntu
+$ docker run --cap-drop KILL ubuntu
 ```
 
 모든 권한이 활성화 된 컨테이너를 실행하고 싶은 경우 --privileged 옵션을 사용할 수 있다.
