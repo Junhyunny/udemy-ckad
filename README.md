@@ -28,3 +28,4 @@
 - [Chapter 53. Demo: Encrypting Secret Data at Rest](./docs/chapter-053.md)
 - [Chapter 54. Docker Security](./docs/chapter-054.md)
 - [Chapter 55. Security Contexts](./docs/chapter-055.md)
+- [Chapter 58. Service Account](./docs/chapter-058.md)
