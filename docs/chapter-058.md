@@ -54,7 +54,7 @@ spec:
 쿠버네티스 시크릿 오브젝트에 서비스 어카운트 디렉토리를 확인하면 세 개의 파일이 마운트 된 것을 볼 수 있다.
 
 ```
-$ kubectl exec -it my-kubernetes-dashboard --ls /var/run/secrets/kubernetes.io/serviceaccount
+$ kubectl exec -it my-kubernetes-dashboard -- ls /var/run/secrets/kubernetes.io/serviceaccount
 ```
 
 기본 서비스 계정은 제한되어 있다. 기본 쿠버네티스 API 쿼리를 실행하는 권한만 가지고 있다. 다른 서비스 계정을 사용하고 싶다면 파드에 새로운 서비스 계정 오브젝트를 지정한다. 기존 파드에 서비스 계정을 수정할 수 없다. 반드시 삭제하고 다시 만들어야 한다. 
