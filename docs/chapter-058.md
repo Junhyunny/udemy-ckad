@@ -93,12 +93,22 @@ spec:
 - 시간 바운드(time bound)
 - 오브젝트 바운드(object bound)
 
-1.22 버전부터 새 파드가 생성되면 더 이상 서비스 계정 오브젝트에 의존하지 않고 시크릿 토큰을 사용한다. TokenRequestAPI를 통해 생성된 토큰은 파드 볼륨에 마운트된다. 
+1.22 버전부터 새 파드가 생성되면 더 이상 서비스 계정 오브젝트에 의존하지 않고 시크릿 토큰을 사용한다. TokenRequestAPI를 통해 생성된 토큰은 파드 볼륨에 마운트된다. 서비스 계정 오브젝트를 생성하면 자동으로 시크릿으로 토큰이 생성되고, 토큰이 파드에 마운트된다.
 
-1.24 버전에는 새로운 기능이 보강되었다.(KEP-2799) 시크릿 오브젝트나 토큰 액세스 시크릿이 자동으로 생성되지 않는다. kubectl 명령어를 통해 수동으로 생성해야 된다.
+1.24 버전에는 새로운 기능이 보강되었다.(KEP-2799) 서비스 계정 오브젝트를 생성하면 시크릿 오브젝트나 토큰 액세스 시크릿이 자동으로 생성되지 않는다. kubectl 명령어를 통해 토큰을 수동으로 생성해야 된다. 토큰을 디코딩하면 만료 시간 정보가 있는 것을 볼 수 있다. 
 
 ```
 $ kubectl create token dashboard-sa
 ```
 
-생성된 1.24 버전 토큰을 디코딩하면 만료 기간 등의 정보가 포함된 것을 볼 수 있다. 
+토큰을 예전 방식처럼 사용하고 싶다면 시크릿 오브젝트를 만들어야 한다. 
+
+```yml
+apiVersion: v1
+kind: Secret
+type: kubernetes.io/service-account-token
+metadata:
+  name: mysecretname
+  annotations:
+    kubernetes.io/service-account.name: dashboard-sa
+```
